@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 1rem;
+  margin: 0;
+  background-color: rgb(228, 228, 228);
+}
+
+header {
+  display: flex;
+  position: relative;
+  width: 100vw;
+  height: 50vh;
+  background-image: url(images/flower.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%); 
+  padding: 2em 0;
+  margin: auto;
+  color: purple;
+  text-shadow: 2px 2px black;
+  text-align: center;
+  font-size: 60px;
+}
+
+h2, h3 {
+  padding: 1em 0;
+  margin: auto;
+  color: orangered;
+  text-align: center;  
+  font-size: 30px;
+}
+
+footer{
+position: relative;
+text-align: center;
+background-color: chocolate;
+font-size: 2ch;
+}
+
